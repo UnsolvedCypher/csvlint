@@ -35,7 +35,7 @@ _*NOTE*: The default settings validate that a CSV conforms to [RFC 4180](https:/
 
 ```shell
 $ csvlint bad_quote.csv
-Record #1 has error: bare " in non-quoted-field
+Record #1 has error: bare " in non-quoted-field at line 2, column 6
 
 unable to parse any further
 
